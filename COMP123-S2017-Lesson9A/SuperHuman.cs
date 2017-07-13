@@ -7,7 +7,7 @@ using System.Text;
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the SuperHuman sub class.
- * Version: 0.4 - Added Override method Tostring
+ * Version: 0.5 - Added stub(empty) Method DisplaySkills to conform to Human Abstract Superclass
  */
 
 namespace COMP123_S2017_Lesson9A
@@ -88,7 +88,13 @@ namespace COMP123_S2017_Lesson9A
             return outputString; 
         }
 
-
-
+        /// <summary>
+        /// This is DisplaySkills Method
+        /// Needs to be Implemented
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented: ");
+        }
     }
 }
