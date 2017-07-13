@@ -17,11 +17,12 @@ namespace COMP123_S2017_Lesson9A
     {
         static void Main(string[] args)
         {
-            SuperHero superHero = new SuperHero("SuperHero Dude",20);
-            superHero.Powers.Add(new Power("Teleportation",50));
-            superHero.Powers.Add(new Power("Phasing", 40));
-            superHero.Powers.Add(new Power("Invisibility", 30));
-            Console.WriteLine(superHero.ToString());
+            SuperVillain superVillain = new SuperVillain("SuperVillain Dude",100);
+            superVillain.Powers.Add(new Power("Teleportation",50));
+            superVillain.Powers.Add(new Power("Phasing", 40));
+            superVillain.Powers.Add(new Power("Invisibility", 30));
+            Console.WriteLine(superVillain.ToString());
+            Console.WriteLine("Malice: " + superVillain.Malice);
         }
     }
 }
